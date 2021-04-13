@@ -4,7 +4,7 @@
 
     <x-my.forest-pic/>
 
-<x-my.title title="{{ $journal->title }}, {{ $journal->volume }}, {{ $journal->number }}, {{ $journal->year }}"/>
+    <x-my.title title="{{ $journal->title }}, {{ $journal->volume }}, {{ $journal->number }}, {{ $journal->year }}"/>
 
     @foreach ($articles as $article)
 
